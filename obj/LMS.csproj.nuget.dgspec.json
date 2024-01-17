@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\vignesh.saravanan\\Downloads\\Vignesh_S_Leave_Management_System(2)\\LMS (1)\\LMS (1)\\LMS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\vignesh.saravanan\\Downloads\\Vignesh_S_Leave_Management_System(2)\\LMS (1)\\LMS (1)\\LMS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\vignesh.saravanan\\Downloads\\Vignesh_S_Leave_Management_System(2)\\LMS (1)\\LMS (1)\\LMS.csproj",
+        "projectName": "LMS",
+        "projectPath": "C:\\Users\\vignesh.saravanan\\Downloads\\Vignesh_S_Leave_Management_System(2)\\LMS (1)\\LMS (1)\\LMS.csproj",
+        "packagesPath": "C:\\Users\\vignesh.saravanan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vignesh.saravanan\\Downloads\\Vignesh_S_Leave_Management_System(2)\\LMS (1)\\LMS (1)\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vignesh.saravanan\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Mailkit": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "microsoft.EntityFrameworkcore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "microsoft.EntityFrameworkcore.sqlserver": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "microsoft.EntityFrameworkcore.tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
